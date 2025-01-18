@@ -1,26 +1,29 @@
-# OnlineBusBooking 
-Question: Build an automation framework and automate the below task. 
-Url: https://www.busonlineticket.com/booking/bus-tickets.aspx 
-Task: 
-• Hit the above-mentioned URL. 
-• Select source as Cameron Highlands and destination as Kaula Lumpur 
-• Select date as 20th of next month 
-• Search for a bus 
-• Select the seats for the bus with least adult cost (Do not use the sort button) and Select max of 6 seats or all seats if less than 6 in the layout. 
-• Click on Proceed Enter Personal Details 
-• Click on proceed to payment (Do not choose any payment type) and Assert for the Alert pop up and print the alert message. 
-Application : Web 
-Points:- I'M using "Hybrid Framwork" i.e combination of "Data Driven + POM structure". 
-     In which I used MAVEN Project It provide structure for user standard Like 
-        1) src/main/java        2) src/main/resource 
-        3) src/test/java        4)src/test/resource 
-        5)src folder           6)target folder 
-        and pom.xml file from this is src/main/java ,It maintain store my POM classes & under in src/test/java It maintain my test classes & add Maven dependencies in pom.xml file it will download automatically.
-        Also use "TesNG" for execution of script with the help of its annotation.
-        use selenium as automation tool.
-        And also maintain utility class & Base class.
-        
-        
-        
-        
-     
+# Online Bus Booking
+
+Question: Build an automation framework and automate the tasks listed below.
+
+Web Application: BusOnlineTicket Booking.
+
+Want to learn:
+
+Hit the above-mentioned URL.
+Select Cameron Highlands as the source and Kuala Lumpur as the destination.
+Select the date as the 20th of next month.
+Search for a bus.
+Select seats for the bus with the least adult cost (Do not use the sort button) and select a maximum of 6 seats, or all seats if fewer than 6 are available in the layout.
+Click on Proceed and enter personal details.
+Click on Proceed to payment (Do not choose any payment type), assert for the alert pop-up, and print the alert message.
+Points: I’m using a "Hybrid Framework," which is a combination of "Data Driven + POM structure." In this framework, I use a Maven Project to provide a structure that follows user standards, like:
+
+src/main/java
+src/main/resources
+src/test/java
+src/test/resources
+src folder
+target folder
+The pom.xml file handles the dependencies; once added, Maven will automatically download them.
+
+Additionally, I use TestNG for script execution with the help of its annotations.
+
+The framework uses Selenium as the automation tool. I also maintain utility classes and a base class for structure and reusability.
+
